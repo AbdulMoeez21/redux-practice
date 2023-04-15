@@ -1,14 +1,13 @@
 import React from 'react'
+import HeaderContainer from '../containers/HeaderContainer'
 
 
 const Home = (props) => {
+    console.log(props)
     return (
         <div>
            <h1>Home </h1>
-           <div className="add-to-cart">
-    {/* <span className="cart-count">{props.data.length}</span> */}
-                <img src="https://static.vecteezy.com/system/resources/thumbnails/000/496/007/small/Ecommerce_998.jpg" />
-            </div>
+         <HeaderContainer/>
            
             <div className="cart-wrapper">
                 <div className="img-wrapper item">
